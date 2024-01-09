@@ -1,0 +1,14 @@
+<launch>
+	<!-- <arg name="text" default="Hello Class!"/>
+	<node name="Talker" pkg="khwanchai" type="node1.py" output="screen">
+		<param name="text" value="$(arg text)"/>
+	</node>
+	
+	<node name="Listener" pkg="khwanchai" type="node2.py" output="screen">
+		
+	</node> -->
+	<node name="turtlesim" pkg="turtlesim" type="turtlesim_node" output="screen">
+	</node>
+	<node name="Gui" pkg="khwanchai" type="gui.py" output="screen">
+	</node>
+</launch>
